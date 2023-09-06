@@ -34,7 +34,7 @@ export function formatDay(dateStr) {
 }
 
 function App() {
-  const [location, setLocation] = useState("lisbon");
+  const [location, setLocation] = useState("");
   const [isloading, setIsLoading] = useState(false);
   const [displayLocation, setDisplayLocation] = useState("");
   const [weather, setWeather] = useState({});
